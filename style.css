@@ -121,7 +121,8 @@ body div {
 #ex_cur_title,
 #projects_title,
 #skills_title,
-#courses_title {
+#courses_title,
+#contact_title {
   margin-top: 30%;
   text-align: center;
   font-family: "Nanum Myeongjo", serif;
@@ -151,27 +152,31 @@ ul li {
 #ex_cur_page,
 #courses_page,
 #projects_page,
-#skills_page {
+#skills_page,
+#contact_page {
   margin-top: 700px;
 }
 
 #ex_cur_title,
 #courses_title,
 #projects_title,
-#skills_title {
+#skills_title,
+#contact_title {
   text-align: center;
 }
 
 #ex_cur_info,
 #courses_info,
 #projects_info,
-#skills_info {
+#skills_info,
+#contact_info {
   text-align: center;
 }
 #ex_cur_list div,
 #courses_list div,
 #projects_list div,
-#skills_list div {
+#skills_list div,
+#contact_list div {
   border: 1px solid rgb(70, 70, 70);
   width: min-content;
   box-shadow: rgba(68, 71, 73, 0.4) 0px 0px 0px 2px,
@@ -186,7 +191,8 @@ ul li {
 #ex_cur_list div p,
 #courses_list div p,
 #projects_list div p,
-#skills_list div p {
+#skills_list div p,
+#contact_list div p {
   color: gray;
   text-align: center;
   font-size: 20px;
@@ -194,7 +200,8 @@ ul li {
 #ex_cur_list,
 #courses_list,
 #projects_list,
-#skills_list {
+#skills_list,
+#contact_list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -214,7 +221,8 @@ ul li {
   #ex_cur_list div,
   #courses_list div,
   #projects_list div,
-  #skills_list div {
+  #skills_list div,
+  #contact_list div {
     width: 80%;
     margin-left: 5%;
     margin-bottom: 3%;
@@ -243,7 +251,8 @@ ul li {
   #ex_cur_title,
   #projects_title,
   #skills_title,
-  #courses_title {
+  #courses_title,
+  #contact_title {
     margin-top: 45%;
     text-align: center;
     font-family: "Nanum Myeongjo", serif;
@@ -252,7 +261,8 @@ ul li {
   #ex_cur_list div,
   #courses_list div,
   #projects_list div,
-  #skills_list div {
+  #skills_list div,
+  #contact_list div {
     width: 80%;
     margin-left: 5%;
     margin-bottom: 3%;
@@ -279,7 +289,8 @@ ul li {
   #ex_cur_title,
   #projects_title,
   #skills_title,
-  #courses_title {
+  #courses_title,
+  #contact_title {
     margin-top: 400px;
     text-align: center;
     font-family: "Nanum Myeongjo", serif;
@@ -300,13 +311,15 @@ ul li {
   #ex_cur_title,
   #projects_title,
   #skills_title,
-  #courses_title {
+  #courses_title,
+  #contact_title {
     margin-top: 75%;
     text-align: center;
     font-family: "Nanum Myeongjo", serif;
     color: antiquewhite;
   }
 }
-#projects_list div a{
-    text-decoration: none;
+#projects_list div a,
+#contact_list div a {
+  text-decoration: none;
 }
