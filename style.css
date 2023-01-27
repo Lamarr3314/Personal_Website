@@ -1,5 +1,7 @@
 html {
   background-color: rgb(41, 41, 41);
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 body {
   min-height: 100vh;
@@ -8,11 +10,12 @@ body {
   flex-direction: column;
   position: sticky;
   top: 0;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: proximity;
 }
 
 body div {
   scroll-snap-align: start;
+  scroll-snap-type: proximity;
 }
 
 .headshot {
@@ -123,6 +126,7 @@ body div {
   text-align: center;
   font-family: "Nanum Myeongjo", serif;
   color: antiquewhite;
+  scroll-snap-align: center;
 }
 #skills_title {
   margin-top: 30%;
