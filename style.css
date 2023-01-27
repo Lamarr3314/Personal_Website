@@ -307,3 +307,6 @@ ul li {
     color: antiquewhite;
   }
 }
+#projects_list div a{
+    text-decoration: none;
+}
